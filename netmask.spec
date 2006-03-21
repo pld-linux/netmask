@@ -1,5 +1,5 @@
 Summary:	Utility for determining network masks
-Summary(pl):	Narzêdzie do wyznaczania maski sieci
+Summary(pl):	Narzêdzie do wyznaczania masek sieci
 Name:		netmask
 Version: 	2.3.7
 Release:	1
@@ -22,7 +22,9 @@ software.
 
 %description -l pl
 Podrêczne narzêdzie do generowania zwiêz³ych masek sieci w kilku
-popularnych formatach.
+popularnych formatach. Jest szczególnie przydatne przy tworzeniu
+d³ugich regu³ek firewalla i konwersji ich dla innego oprogramowania
+obs³uguj±cego firewall.
 
 %prep
 %setup -q
@@ -54,4 +56,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
-%{_infodir}/*
+%{_infodir}/*.info*
