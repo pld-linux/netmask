@@ -1,12 +1,12 @@
 Summary:	Utility for determining network masks
 Summary(pl):	Narzêdzie do wyznaczania masek sieci
 Name:		netmask
-Version:	2.3.7
+Version:	2.3.8
 Release:	1
 License:	GPL v2
 Group:		Networking/Utilities
 Source0:	http://http.us.debian.org/debian/pool/main/n/netmask/%{name}_%{version}.tar.gz
-# Source0-md5:	6e1b1c0694296bbe37ba8cb6a4902436
+# Source0-md5:	78e627fd1c014851ad144c31b2d882b0
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	texinfo
