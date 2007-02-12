@@ -1,5 +1,5 @@
 Summary:	Utility for determining network masks
-Summary(pl):	Narzêdzie do wyznaczania masek sieci
+Summary(pl.UTF-8):   NarzÄ™dzie do wyznaczania masek sieci
 Name:		netmask
 Version:	2.3.8
 Release:	1
@@ -20,11 +20,11 @@ rules left by the netadmin before you. It will also convert netmasks
 from one format to another for the day you change your firewall
 software.
 
-%description -l pl
-Podrêczne narzêdzie do generowania zwiêz³ych masek sieci w kilku
-popularnych formatach. Jest szczególnie przydatne przy tworzeniu
-d³ugich regu³ek firewalla i konwersji ich dla innego oprogramowania
-obs³uguj±cego firewall.
+%description -l pl.UTF-8
+PodrÄ™czne narzÄ™dzie do generowania zwiÄ™zÅ‚ych masek sieci w kilku
+popularnych formatach. Jest szczegÃ³lnie przydatne przy tworzeniu
+dÅ‚ugich reguÅ‚ek firewalla i konwersji ich dla innego oprogramowania
+obsÅ‚ugujÄ…cego firewall.
 
 %prep
 %setup -q
