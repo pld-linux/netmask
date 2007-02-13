@@ -1,5 +1,5 @@
 Summary:	Utility for determining network masks
-Summary(pl.UTF-8):   Narzędzie do wyznaczania masek sieci
+Summary(pl.UTF-8):	Narzędzie do wyznaczania masek sieci
 Name:		netmask
 Version:	2.3.8
 Release:	1
